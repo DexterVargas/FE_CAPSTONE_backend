@@ -14,13 +14,8 @@ export default {
             type: 'string'
         },
         {
-            name: 'destination',
-            title: 'Destination',
-            type: 'url'
-        },
-        {
-            name: 'category',
-            title: 'Category',
+            name: 'province',
+            title: 'Province',
             type: 'string'
         },
         {
@@ -40,12 +35,6 @@ export default {
             name: 'postedBy',
             title: 'PostedBy',
             type: 'postedBy'
-        },
-        {
-            name: 'save',
-            title: 'Save',
-            type: 'array',
-            of: [{type: 'save'}]
         },
         {
             name: 'comments',
